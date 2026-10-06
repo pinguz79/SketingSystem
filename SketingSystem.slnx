@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BusinessLogic/BusinessLogic.csproj" />
+  <Project Path="DataModel/DataModel.csproj" />
+  <Project Path="GeneralExtensions/GeneralExtensions.csproj" />
+  <Project Path="Persistence/Persistence.csproj" />
+  <Project Path="SketingSystem/SketingSystem.csproj" />
+</Solution>

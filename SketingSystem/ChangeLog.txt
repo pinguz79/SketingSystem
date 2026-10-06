@@ -1,0 +1,27 @@
+﻿Version 0.0.0 (DEMO) - Initial release of SketingSystem, a powerful and flexible sketching system for .NET applications
+Version 0.0.1 (DEMO) - Bug fixes #1, #2, #3, #4, #5, #6, #7, #8 - New features 
+
+===============================================================================
+* BUG LIST                                                                    *
+===============================================================================
+#1: Filtri non funzionanti																==> Solved v0.0.1
+#2: Impossibile deselezionare un partecipante dalla griglia								==> Solved v0.0.1
+#3: Creazione di una nuova disciplina -> Non si aggiorna l'elenco delle gare			==> Solved v0.0.1
+#4: Modificando il nome di un giudice non viene aggiornata la voce di menù				==> Solved v0.0.1
+#5: Elenco dei giudici di gara FlowDirection in orizzontale invece che in verticale		==> Solved v0.0.1
+#6: Impossibile eliminare Discipline/Categorie/Giudici									==> Solved v0.0.1
+#7: Aggiugnendo un giudice non viene aggiunto alle tab gara								==> Solved v0.0.1
+#8: Aggiornando una disciplina non si aggiorna l'elenco delle discipline concatenate	==> Solved v0.0.1
+#8: Modificando o aggiungendo un iscritto non viene aggiornata la tab gara				==> non dovrebbe essere uno use case
+
+===============================================================================
+* CHANGE REQUESTS                                                             *
+===============================================================================
+#1: Inserimento anagrafica scuole (ogni ballerino è associato ad una scuola)
+#2: Gestione gruppi: i gruppi sono partecipanti composti da più ballerini, e ogni gruppo è associato ad una scuola. 
+	I ballerini dei gruppi sono a loro volta partecipanti che possono gareggiare anche individualmente.
+	Un ballerino può essere associato a più gruppi, e ogni gruppo può partecipare a più gare.
+
+#2: Aggiungere per ogni ballerino quante coreografie fa
+#3: Aggiungere sottocategorie (pro/open) per ogni categoria
+#4: Ordinare partecipanti gara in base ai voti
